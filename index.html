@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Laser Treatment Appointments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Laser Treatment Appointments</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Laser Treatment</h2>
+      
+      <p>Laser treatment is a medical procedure that uses a focused beam of light to remove unwanted hair, tattoos, or skin imperfections. It is a safe and effective way to achieve smoother, clearer skin without the need for invasive surgery or prolonged recovery time.</p>
+      <p>To schedule an appointment for laser treatment, click the button below:</p>
+      <button id="schedule-btn">Schedule Appointment</button>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("schedule-btn").addEventListener("click", function() {
+      window.location.href = "form.html";
+    });
+  </script>
+</body>
+</html>
